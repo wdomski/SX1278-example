@@ -17,6 +17,24 @@ One of the boards will work as master and the other one will work as slave.
 Master is sending data to slave.
 
 Debugger -- ST-Link V2 with SWV capabilities.
+*Please remember to upgrade the firmware in ST-Link*
+
+## Connecting module
+
+The module has to be connected with the MCU board 
+with following pins:
+
+| MCU pin | SX1278 pin | Description |
+| ------- | ---------- | ----------- |
+| PA4     | NSS        | SPI chip--select |
+| PA5     | SCK        | SPI SCK     |
+| PA6     | SO         | SPI MISO    |
+| PA7     | SI         | SPI MOSI    |
+| PB0     | DIO0       | LoRa interrupt indicator pin (for receiver mode) |
+| PB1     | RST        | LoRa reset  |
+| ------- | ---------- | ----------- |
+| VDD     | VCC        | +3V3        |
+| VSS     | GND        | GND         |
 
 ## Compilation
 You have to compile it under SW4STM32 or import it into i.e. TrueSTUDIO - Atollic.
@@ -36,5 +54,5 @@ reading them.
 
 # Final remarks
 
-You can visit [my blog](http://blog.domski.pl) to read more about the SX1278 modules.
+You can visit [my blog](http://blog.domski.pl) to read more about the SX1278 modules or my other projects.
 

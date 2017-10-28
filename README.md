@@ -2,7 +2,7 @@
 Example for STM32 HAL driver for LoRa SX1278 module 
 
 This is an example project for SX1278 LoRa wireless communication module.
-It includes the diver. The driver itself can be found in (SX1278)[https://github.com/wdomski/SX1278] 
+It includes the diver. The driver itself can be found in [SX1278](https://github.com/wdomski/SX1278) 
 repository.
 
 The example was prepared under SW4STM32 for STM32F103C8T6 developement board 
@@ -36,5 +36,5 @@ reading them.
 
 # Final remarks
 
-You can visit (my blog)[http://blog.domski.pl] to read more about the SX1278 modules.
+You can visit [my blog](http://blog.domski.pl) to read more about the SX1278 modules.
 

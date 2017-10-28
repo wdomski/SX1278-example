@@ -54,5 +54,5 @@ reading them.
 
 # Final remarks
 
-You can visit [my blog](http://blog.domski.pl) to read more about the SX1278 modules.
+You can visit [my blog](http://blog.domski.pl) to read more about the SX1278 modules or my other projects.
 

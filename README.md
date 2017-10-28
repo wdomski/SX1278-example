@@ -17,6 +17,7 @@ One of the boards will work as master and the other one will work as slave.
 Master is sending data to slave.
 
 Debugger -- ST-Link V2 with SWV capabilities.
+*Please remember to upgrade the firmware in ST-Link*
 
 ## Compilation
 You have to compile it under SW4STM32 or import it into i.e. TrueSTUDIO - Atollic.

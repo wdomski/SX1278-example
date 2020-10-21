@@ -1,0 +1,3 @@
+[submodule "SX1278"]
+	path = SX1278
+	url = git@github.com:wdomski/SX1278.git

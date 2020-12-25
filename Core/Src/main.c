@@ -136,7 +136,7 @@ int main(void) {
 
 	printf("Configuring LoRa module\r\n");
 	SX1278_init(&SX1278, 434000000, SX1278_POWER_17DBM, SX1278_LORA_SF_7,
-	SX1278_LORA_BW_125KHZ, SX1278_LORA_CR_4_5, SX1278_LORA_CRC_EN, 10);
+	SX1278_LORA_BW_125KHZ, SX1278_LORA_CR_4_5, SX1278_LORA_CRC_EN, 10, SX127X_SYNC_WORD);
 	printf("Done configuring LoRaModule\r\n");
 
 	if (master == 1) {

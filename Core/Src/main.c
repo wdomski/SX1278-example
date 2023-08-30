@@ -79,7 +79,7 @@ int ret;
 
 char buffer[512];
 
-int message;
+int message = 0;
 int message_length;
 
 /* USER CODE END 0 */
